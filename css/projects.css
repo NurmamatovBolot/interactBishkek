@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 10px;
+}
+
+nav {
+    background: #00AEFF;
+    height: 80px;
+    width: 100%;
+}
+
+.imgLogo {
+    background-image: url("https://clubrunner.blob.core.windows.net/00000050032/Images/PNG-for-Word-documents--presentations--and-web-use.(1).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    filter: brightness(0) invert(1);
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.saturate { filter: saturate(3); }
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    text-shadow:
+    0 0 7px white,
+    0 0 10px white,
+    0 0 21px white,
+    0 0 42px #0fa,
+    0 0 82px #0fa,
+    0 0 92px #0fa,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    background-color: blue;
+    transition: all .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.backroundImage {
+    display: flex;
+    background-size: cover;
+    background-image: url("../images/projectImage.jpg");
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-info {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+}
+
+.card{
+    display: flex;
+    max-width: 350px;
+    height: 100vh;
+    margin: 10px;
+    background-color: #00AEFF;
+    border-radius: 10%;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.title{
+    font-size: 25px;
+    color: white;
+    margin: 0 auto;
+    
+}
+
+.card-description {
+    color: white;
+}
+
+.img_card {
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 90vw;
+    height: 50vh;
+}
